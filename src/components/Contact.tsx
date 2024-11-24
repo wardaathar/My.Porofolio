@@ -10,7 +10,7 @@ const Contact=()=> {
             <div className='space-y-8'>
                 <h2 className='text-5xl' data-aos="zoom-out-right">Get In Touch</h2>
                 <p className='text-gray-300 text-[18px] pt-2' data-aos="zoom-out-right">
-                If you have any more questions, don't hesitate to contact me & Keep it brief and add an invitation to keep in touch.
+                If you have any more questions, donot hesitate to contact me & Keep it brief and add an invitation to keep in touch.
                 </p>
                 <div className='flex gap-3 items-centre' data-aos="zoom-in-up">
                 <IoIosMail size={30} /> wdaa47495@gmail.com
