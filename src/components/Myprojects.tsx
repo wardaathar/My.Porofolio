@@ -14,7 +14,7 @@ const data = [
         id: 1,
         title: "Resum Builder",
         desc: "A React & TypeScript Based App For Managing and organizing your Task efficently.",
-        img:"/rsm.jpg",
+        img:"/my.jpg",
         tags: ["React", "Nodes", "Css ", "TypeScript"],
     },
     {
