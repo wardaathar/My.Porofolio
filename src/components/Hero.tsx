@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 const Hero = () => {
   return (
-    <div id="hero" className=' min-h-screen bg-no-repeat bg-[url(/wr.jpg)]'
+    <div id="hero" className=' min-h-screen bg-no-repeat bg-[url(/pro.jpg)]'
     style={{backgroundSize: "25%", backgroundPosition: " right 500px top 200px"}}  data-aos="zoom-in-center"
     >
       <Nav />
