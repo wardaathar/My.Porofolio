@@ -13,7 +13,7 @@ function Nav() {
                 <li className='menuLink'><a href='#skills'>Skills</a></li>
                 <li className='menuLink'><a href='#contact'>Contact</a></li>
             </ul>
-            <RiMenuFold4Fill className='md:hidden' size={3.5} />
+            <RiMenuFold4Fill className='md:hidden' size={30} />
         </div>
 
     </div>
