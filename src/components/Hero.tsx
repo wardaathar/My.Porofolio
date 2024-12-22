@@ -1,23 +1,26 @@
-import React from 'react'
-import Nav from './Nav'
+import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div id="hero" className='min-h-screen bg-no-repeat bg-[url(/wr.jpg)]'
-    style={{backgroundSize: "25%", backgroundPosition: "right 500px top 200px" }}
-    >
-      <Nav />
-      <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
-        <div className='hidden lg-block'></div>
-        <div className='text-[70px] sm:text:[100px] font-bold-itallic leading-tight flex justify-center items-center'>
-          <div> 
-            <p data-aos="zoom-in-up">I am </p>
-            <p data-aos="zoom-in-up"> Wardah</p>
-            <p data-aos="zoom-in-up"> Ather</p>
-          </div>
-        </div>
-      </div>
+   
+ 
+      <div className='container pt-32'>
 
+<Image
+className="w-300 h-300 rounded-full  items-center mr-7 object-cover border-2 border-red-500"
+src="/images/w.png.jpg"
+alt="Author Image"
+width={280} // Set the width in pixels
+height={280} // Set the height in pixels
+priority // Optional: For faster loading of important images
+/>
+<div>
+  <h3 className="text-xl font-mono  text-violet-900 ">WARDAH ATHAR</h3>
+  <p className='text-slate-600'> STUDENT | WEB DEVELOPER | MEHNDI ARTIST{""}
+ </p>
+</div>
+      
     </div>
   );
 };
