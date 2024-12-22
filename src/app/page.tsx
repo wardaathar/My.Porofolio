@@ -1,12 +1,13 @@
 "use client"
 
 import Hero from "@/components/Hero";
-import Myprojects from "@/components/Myprojects";
+import Projects from "@/components/Myprojects";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
-import AOS from "aos"
+import AOS from "aos";
+import Nav from "@/components/Nav";
 import "aos/dist/aos.css";
 import {useEffect} from "react";
 
@@ -25,11 +26,12 @@ export default function Home() {
 
   return (
     <main>
+      <Nav/>
       <Hero />
-      <Myprojects />
+      <About />
+      <Projects />
       <Skills />
       <Contact />
-      <About />
       <Footer />
     </main>
 

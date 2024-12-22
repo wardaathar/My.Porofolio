@@ -12,10 +12,10 @@ const Card: React.FC<propsType> =( { title, desc, img, tags} ) => {
   return (
     <div className='border border-accent w-[300px] sm:w-[350px]'data-aos="zoom-in-left">
       <div>
-        <Image className='w-[300px] sm:w-[400px] h-auto'
+        <Image className='w-[200px] sm:w-[300px] h-auto'
         src={img}
-        width={350}
-        height={350}
+        width={300}
+        height={300}
         alt={title}
         />
          </div>
