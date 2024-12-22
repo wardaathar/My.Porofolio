@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body{
+@layer base {
+    body {
         color: #fff;
         background-color: rgb(4, 7, 12);
     }
 }
+
 @layer components {
-    .menulink{
+    .menulink {
         @apply cursor-pointer hover:text-[#c5c5c5];
     }
-    .tags{
-        background-color:darkorange;
+    
+    .tags {
+        background-color: darkorange;
         margin-right: 0.5rem;
         margin-top: 0.5rem;
         padding: 3px 10px;
@@ -21,16 +23,46 @@
         color: #fff;
         font-size: 12px;
     }
-    .tags:last-child{
+    
+    .tags:last-child {
         margin-right: 0;
     }
-    .tags:nth-child(2){
-        background-color:darkgray ;
+
+    .tags:nth-child(2) {
+        background-color: darkgray;
     }
-    .tags:nth-child(3){
-        background-color:darkcyan ;
+
+    .tags:nth-child(3) {
+        background-color: darkcyan;
     }
-    .tags:nth-child(4){
-        background-color:cornflowerblue ;
+
+    .tags:nth-child(4) {
+        background-color: cornflowerblue;
+    }
+}
+
+/* Responsive Enhancements */
+@layer utilities {
+    @media (max-width: 640px) { /* Small screens (mobile) */
+        .tags {
+            font-size: 10px; /* Smaller font for mobile */
+            padding: 2px 8px; /* Reduced padding */
+            margin-right: 0.25rem;
+            margin-top: 0.25rem;
+        }
+    }
+
+    @media (min-width: 641px) and (max-width: 768px) { /* Medium screens (tablet) */
+        .tags {
+            font-size: 11px; /* Slightly larger font */
+            padding: 3px 9px; /* Adjusted padding */
+        }
+    }
+
+    @media (min-width: 769px) { /* Large screens (desktop) */
+        .tags {
+            font-size: 14px; /* Larger font for desktops */
+            padding: 4px 12px; /* Enhanced padding */
+        }
     }
 }
