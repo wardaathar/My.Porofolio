@@ -3,6 +3,7 @@ import React from 'react'
 import { IoIosMail } from "react-icons/io";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { LiaLinkedin } from 'react-icons/lia';
 
 const Contact = () => {
   return (
@@ -13,15 +14,15 @@ const Contact = () => {
           <p className='text-gray-300 text-[18px] pt-2' data-aos="zoom-out-right">
             If you have any more questions, donot hesitate to contact me & Keep it brief and add an invitation to keep in touch.
           </p>
-          <div className='flex gap-3 items-centre' data-aos="zoom-in-up">
+          <a className='flex gap-3 items-centre' data-aos="zoom-in-up" href="mailto:wdaa47495@gmail.com">
             <IoIosMail size={30} /> wdaa47495@gmail.com
-          </div>
-          <div className='flex gap-3 items-centre' data-aos="zoom-in-up">
-            <  FaSquareFacebook size={30} />  Warda.ather
-          </div>
-          <div className='flex gap-3 items-centre' data-aos="zoom-in-up">
-            <  BsFillTelephoneFill size={30} />  (021)315**88738
-          </div>
+          </a>
+          <a className='flex gap-3 items-centre' data-aos="zoom-in-up" href="https://www.linkedin.com/in/syeda-warda-2ab623344/" target="_blank" rel="noopener noreferrer">
+            <FaSquareFacebook size={30} /> Syeda warda
+          </a>
+        <a className='flex gap-3 items-center' data-aos="zoom-in-up" href="https://www.linkedin.com/in/syeda-warda-2ab623344/" target="_blank" rel="noopener noreferrer">
+  <LiaLinkedin size={30} />www.linkedin
+</a>
         </div>
         <div className='space-y-8'>
           <div className='flex flex-col gap-1' data-aos="zoom-in-up">
@@ -44,7 +45,7 @@ const Contact = () => {
               id="message" rows={10}
             ></textarea>
           </div>
-          <button className='bg-red-800 font-semibold pt-2 px-6'>Send</button>
+          <button className=' bg-violet-600 font-semibold pt-2 px-6'>Send</button>
         </div>
       </div>
 
